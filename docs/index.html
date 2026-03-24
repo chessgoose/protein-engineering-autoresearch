@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protein Engineering Autoresearch</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f5ef;
+        --card: rgba(255, 255, 255, 0.72);
+        --text: #10201a;
+        --muted: #4f665d;
+        --accent: #2f7d59;
+        --border: rgba(16, 32, 26, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
+          Palatino, Georgia, serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(47, 125, 89, 0.16), transparent 34%),
+          radial-gradient(circle at bottom right, rgba(126, 168, 132, 0.18), transparent 28%),
+          linear-gradient(135deg, #eef6ef 0%, var(--bg) 48%, #f4efe8 100%);
+      }
+
+      main {
+        width: min(720px, 100%);
+        padding: 48px 40px;
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        background: var(--card);
+        backdrop-filter: blur(12px);
+        box-shadow: 0 24px 70px rgba(44, 67, 56, 0.12);
+      }
+
+      .eyebrow {
+        margin: 0 0 18px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.5rem, 8vw, 5.5rem);
+        line-height: 0.94;
+        letter-spacing: -0.05em;
+      }
+
+      p {
+        margin: 22px 0 0;
+        max-width: 40rem;
+        font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+        line-height: 1.65;
+        color: var(--muted);
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      @media (max-width: 640px) {
+        main {
+          padding: 36px 24px;
+          border-radius: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Protein Engineering Autoresearch</p>
+      <h1>Agentic protein engineering is coming soon.</h1>
+      <p>
+        A lightweight landing page for the project while the full research and
+        tooling experience comes together.
+      </p>
+    </main>
+  </body>
+</html>
